@@ -1,0 +1,12 @@
+
+Arthur Meneghin Nery RM: 569088
+
+
+
+Esse site foi projetado para um check point (prova), da minha faculdade, com o tema livre
+
+Ele possui toda a identidade e design escolhido e codado por mim, com o intuito de aproveitar e testar o maximo possivel meu conhecimento de HTML e CSS ate agora
+
+Eu pedi auxilio de uma IA para criar as partes escritas e um nome para o site, mas claro sempre respeitando meu gosto ! Porque o Lorem Ipsum estava me incomodando e deixando meu site feio e sem lógica. Misturei todas as coisas que eu mais gosto: Perfumes, tenis, relogio e principalmente Motos
+
+espero que voce tenha gostado!
