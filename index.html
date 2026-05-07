@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sonhos Masculinos</title>
     <link rel="stylesheet" href="./style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
-    <!-- MENU -->
+
+  <!-- MENU -->
+
   <header id="navbar">
     <div class="nav-container">
-      <a href="#inicio" class="logo">LUXE</a>
+      <a href="#inicio" class="logo">LUXO</a>
       <nav>
         <ul>
           <li><a href="#inicio">Início</a></li>
@@ -27,18 +29,166 @@
     </div>
   </header>
 
-  <!-- Página de incio -->
+  <!-- INÍCIO -->
+
   <section id="inicio" class="hero">
     <div class="hero-content">
       <span class="hero-tag">Nova Coleção 2026</span>
-      <h1>Viva o<br /><em>Luxo</em><br />você merece!</h1>
-      <p>Perfumes, tênis, relógios e motos — uma curadoria para quem vive perigosamente </p>
+      <h1>Viva o<br /><em>Luxo,</em><br />você merece!</h1>
+      <p>Perfumes, tênis, relógios e motos</p>
       <a href="#produtos" class="btn-primary">Explorar Coleção</a>
-    </div>
-    <div class="hero-scroll">
-      <span>scroll</span>
-      <i class="fa-solid fa-arrow-down"></i>
+  </section>
+
+  <!-- SOBRE -->
+
+  <section id="sobre" class="sobre">
+    <div class="sobre-grid">
+      <div class="sobre-texto">
+        <span class="label">Quem somos:</span>
+        <h2>Estilo sem<br />compromisso</h2>
+        <p>A LUXO nasceu da paixão por produtos que transcendem o comum. Cada item da nossa coleção foi selecionado para quem busca mais do que moda — busca identidade.</p>
+        <p>De fragrâncias exclusivas a motos icônicas, entregamos experiências que ficam na memória.</p>
+        <div class="sobre-stats">
+          <div class="stat">
+            <strong>4+</strong>
+            <span>Categorias</span>
+          </div>
+          <div class="stat">
+            <strong>200+</strong>
+            <span>Produtos</span>
+          </div>
+          <div class="stat">
+            <strong>15k</strong>
+            <span>Clientes</span>
+          </div>
+        </div>
+      </div>
+      <div class="sobre-img">
+        <div class="img-placeholder sobre-placeholder">
+          <i class="fa-solid fa-crown"></i>
+        </div>
+      </div>
     </div>
   </section>
+
+  <!-- PRODUTOS -->
+
+  <section id="produtos" class="produtos">
+    <div class="section-header">
+      <span class="label">Categorias</span>
+      <h2>Nossa Coleção</h2>
+    </div>
+    <div class="produtos-grid">
+
+      <div class="card">
+        <div class="card-img">
+          <i class="fa-solid fa-spray-can-sparkles"></i>
+        </div>
+        <div class="card-body">
+          <span class="card-tag">Novo</span>
+          <h3>Perfumes</h3>
+          <p>Fragrâncias que contam histórias. Do floral ao amadeirado, encontre seu aroma único e conquiste a mulher dos seus sonhos.</p>
+          <div class="card-footer">
+            <span class="preco">A partir de R$ 299</span>
+            <button class="btn-card">Ver mais <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-destaque">
+        <div class="card-img">
+          <i class="fa-solid fa-shoe-prints"></i>
+        </div>
+        <div class="card-body">
+          <span class="card-tag">Em Alta</span>
+          <h3>Tênis</h3>
+          <p>Conforto e estilo lado a lado. Modelos exclusivos para cada momento do seu dia.</p>
+          <p>Disponível todos os tamanhos.</p>
+          <div class="card-footer">
+            <span class="preco">A partir de R$ 599</span>
+            <button class="btn-card">Ver mais <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <i class="fa-solid fa-clock"></i>
+        </div>
+        <div class="card-body">
+          <span class="card-tag">Premium</span>
+          <h3>Relógios</h3>
+          <p>O tempo no seu pulso com precisão e elegância.</p>
+          <div class="card-footer">
+            <span class="preco">A partir de R$ 499</span>
+            <button class="btn-card">Ver mais <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <i class="fa-solid fa-motorcycle"></i>
+        </div>
+        <div class="card-body">
+          <span class="card-tag">Exclusivo</span>
+          <h3>Motos</h3>
+          <p>Liberdade sobre duas rodas. Modelos para aventureiros e apaixonados por velocidade e trilha.</p>
+          <div class="card-footer">
+            <span class="preco">A partir de R$ 19.000</span>
+            <button class="btn-card">Ver mais <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+
+  <section id="galeria" class="galeria">
+    <div class="section-header">
+      <span class="label">Destaques</span>
+      <h2>Peças Selecionadas</h2>
+    </div>
+    <div class="galeria-grid">
+
+      <div class="galeria-item g-tall">
+        <img src="./img/perfume.jpg" alt="The Clash - Oboticário" />
+        <div class="g-overlay">
+          <span>The Clash (Oboticário)</span>
+          <small>Perfume — R$ 119,99</small>
+        </div>
+      </div>
+
+      <div class="galeria-item">
+        <img src="./img/tenis.jpg" alt="Nike Air Force 1" />
+        <div class="g-overlay">
+          <span>Nike Air Force 1</span>
+          <small>Tênis — R$ 799</small>
+        </div>
+      </div>
+
+      <div class="galeria-item">
+        <img src="./img/relogio.jpg" alt="Chronos Black" />
+        <div class="g-overlay">
+          <span>Chronos Black</span>
+          <small>Relógio — R$ 2.199</small>
+        </div>
+      </div>
+
+      <div class="galeria-item g-wide">
+        <img src="./img/moto.jpg" alt="Phantom GT" />
+        <div class="g-overlay">
+          <span>Tiger Sport 660</span>
+          <small>Moto — R$ 57.000</small>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+ 
+
 </body>
 </html>
